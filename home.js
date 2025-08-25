@@ -88,7 +88,7 @@ function styleChangeCard(id){
         if(takeInputValue('bank-account-number') === ""){
             wrongBankAccount.textContent = 'Please Enter an Account Number';
             return;
-        }else if(takeInputValue('bank-account-number').length !== 11 || String(parseInt(takeInputValue('bank-account-number'))).length !==11){
+        }else if(takeInputValue('bank-account-number').length !== 11){
             wrongBankAccount.textContent = 'Invalid Bank Account Number';
             return;
         }else {
@@ -160,7 +160,7 @@ function styleChangeCard(id){
         if(takeInputValue('agent-account-number') === ""){
             wrongAgentAccount.textContent = 'Please Enter an Agent Number';
             return;
-        }else if(takeInputValue('agent-account-number').length !== 11 || String(parseInt(takeInputValue('agent-account-number'))).length !==11){
+        }else if(takeInputValue('agent-account-number').length !== 11){
             wrongAgentAccount.textContent = 'Invalid Agent Number';
             return;
         }else {
@@ -230,7 +230,7 @@ function styleChangeCard(id){
         if(takeInputValue('transfer-account-number') === ""){
             wrongTransferAccount.textContent = 'Please Enter an User Account';
             return;
-        }else if(takeInputValue('transfer-account-number').length !== 11 || String(parseInt(takeInputValue('transfer-account-number'))).length !==11){
+        }else if(takeInputValue('transfer-account-number').length !== 11){
             wrongTransferAccount.textContent = 'Invalid User Account Number';
             return;
         }else {
@@ -350,7 +350,7 @@ const wrongCouponNumber = document.getElementById('wrong-coupon-number');
         if(takeInputValue('pay-bill-number') === ""){
             wrongPayBillNumber.textContent = 'Please Enter a Pay Bill Number';
             return;
-        }else if(takeInputValue('pay-bill-number').length !== 11 || String(parseInt(takeInputValue('pay-bill-number'))).length !==11){
+        }else if(takeInputValue('pay-bill-number').length !== 11){
             wrongPayBillNumber.textContent = 'Invalid Pay Bill Number';
             return;
         }else {
