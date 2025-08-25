@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center">
+        <div class="h-[130px] w-[320px] bg-[url(./assets/bg.png)] flex items-center justify-center">
+            <img src="./assets/Group.png" alt="">
+        </div>
+        <form class="bg-white p-8 rounded-3xl min-w-[350px]">
+            <fieldset class="fieldset">
+                <legend class="fieldset-legend text-base font-medium ">Mobile Number</legend>
+                <input id="login-mobile-number" type="text" class="input bg-[#F4F5F7] w-full rounded-3xl border-none pl-5  text-base " placeholder="Enter Your Number" />
+                <div id="invalid-mobile-number" class="text-[12px] text-red-600"></div>
+                <legend class="fieldset-legend text-base font-medium mt-2">4 Digit Pin</legend>
+                <input id="login-pin-number" type="password" class="input bg-[#F4F5F7] w-full rounded-3xl border-none pl-5 text-base  " placeholder="Enter 4 Digit Pin" />
+                <div id="invalid-pin-number" class="text-[12px] text-red-600"></div>
+                <button id="login-btn" class="btn btn-primary w-full rounded-3xl mt-5 bg-[#0874F2] border-none text-base">Login</button>
+            </fieldset>
+        </form>
+      <script src="./login.js"></script>      
+</body>
+</html>      
