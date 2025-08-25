@@ -55,7 +55,7 @@ function styleChangeCard(id){
     document.getElementById('log-out-btn')
             .addEventListener('click',function (e){
                 e.preventDefault();
-                window.location.href = "./login.html";
+                window.location.href = "./index.html";
             })
 
        
